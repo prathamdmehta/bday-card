@@ -1,0 +1,85 @@
+body{
+    text-align: center;
+    font-family:cursive;
+    background : linear-gradient(pink, purple, yellow, orange, red);
+    color: whitesmoke;
+    filter: drop-shadow(2px 2px black);
+}
+
+h1, h2, h4, p{
+    text-shadow: 0 0 4px black;
+}
+
+#img{
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid pink;    
+}
+
+#bday-age{
+    background: pink;
+    display: inline;
+    border-radius: 6px;
+    padding: 5px 10px;
+    margin: 20px 0 10px 0;
+    border: 2px solid purple;
+}
+
+#bday-date{
+    background: pink;
+    display: inline;
+    border-radius: 6px;
+    padding: 5px 10px;
+    margin: 0;
+    border: 2px solid purple;
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section{
+    margin-top: 50px;
+}
+
+.gift-title{
+    margin-bottom: 10px;
+}
+
+.gift-hint{
+    margin-top: 0;
+    text-shadow: 2px 2px 2px red;
+}
+
+.gift-img{
+    width: 450px;
+    height: 300px;
+    background-image: url(giftcard.png);
+    background-size: cover;
+    margin: 0 auto;
+}
+
+#gift-img-happy:hover{
+    background-image: url(https://media.giphy.com/media/5GoVLqeAOo6PK/giphy.gif);
+}
+
+#gift-img-react:hover{
+    background-image: url(https://media.giphy.com/media/BrB6VyTMD1qyQ/giphy.gif);
+    background-position: right;
+}
+#gift-img-dumb:hover{
+    background-image: url(https://media.giphy.com/media/7Jq6ufAgpblcm0Ih2z/giphy.gif);
+    background-position: center;
+}
+
+.footer{
+    padding-top: 30px;
+}
+
+.line{
+    border-bottom: 2px solid red;
+}
+
+
